@@ -15,8 +15,8 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder ".", "/vagrant", mount_options:['dmode=777','fmode=777']
   config.vm.boot_timeout = 600
 
-  config.ssh.username = "user"
-  config.ssh.password = "pass"
+  config.ssh.username = "IEuser"
+  config.ssh.password = "Passw0ld!"
   config.ssh.insert_key = false
   config.ssh.shell = 'sh -l'
 end
