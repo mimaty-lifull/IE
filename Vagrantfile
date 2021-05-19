@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
   config.vm.boot_timeout = 600
 
   config.ssh.username = "IEuser"
-  config.ssh.password = "Passw0ld!"
+  config.ssh.password = "Passw0rd!"
   config.ssh.insert_key = false
   config.ssh.shell = 'sh -l'
 end
